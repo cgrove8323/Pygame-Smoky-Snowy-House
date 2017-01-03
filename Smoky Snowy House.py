@@ -173,9 +173,7 @@ while not done:
         pygame.draw.line(screen, BROWN, [590, 385], [600, 350], 5)
     else:
         pygame.draw.line(screen, BROWN, [590, 385], [575, 350], 5)
-    ''' angles for arcs are measured in radians (a pre-cal topic) '''
-    #pygame.draw.arc(screen, ORANGE, [100, 100, 100, 100], 0, math.pi/2, 1)
-    #pygame.draw.arc(screen, BLACK, [100, 100, 100, 100], 0, math.pi/2, 50)
+  
 
 
     # Update screen (Actually draw the picture in the window.)
